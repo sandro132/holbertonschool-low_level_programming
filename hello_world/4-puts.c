@@ -1,9 +1,8 @@
-#!/bin/bash
 #include <stdio.h>
 
 /**
  *
- *main -a C program that prints exactly "Programming is like building
+ * main -a C program that prints exactly "Programming is like building"
 
  *Return: 0 (Success)
 
