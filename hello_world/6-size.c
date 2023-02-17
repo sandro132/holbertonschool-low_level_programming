@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main -a C program
+ * main -C program
  *
  * Return: 0 (Succes);
  */
-
 int main(void)
 {
 char caracter;
