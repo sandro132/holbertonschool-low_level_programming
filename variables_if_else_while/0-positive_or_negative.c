@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more header goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main C "if for positive or negative
+ *
+ *Return: 0 (Success);
+ */
 
 int main(void)
 {
