@@ -17,7 +17,7 @@ int main(void)
 
 	if (n > 0)
 	{
-	printf("%d" $n  "is positive");
+	printf("%d is positive",n);
 	}
 	else
 	{
