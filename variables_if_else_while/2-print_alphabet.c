@@ -1,10 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - function
- * description - alphabet
- * return: 0 (success);
+ * description - in the alphabet
+ * Return: 0
  */
-
 int main(void)
 {
 	char abc = 'a';
