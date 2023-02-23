@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_sing - function that prints the sign of a number
+ * print_sign - function that prints the sign of a number
  * @n:print letter in number
  * Return: 0.
  */
