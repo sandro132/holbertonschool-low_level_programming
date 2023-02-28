@@ -15,7 +15,9 @@ int count = 0;
 	}
 	
 	for (j = count; s[j]  >= 0; j--)
+	{
 		_putchar(s[j]);
+	}
 	_putchar('\n');
 }
 
