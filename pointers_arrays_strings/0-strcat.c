@@ -17,8 +17,5 @@ char *_strcat(char *dest, char *src)
 	for (j = 0; dest[j] != '\0'; j++)
 	{
 	}
-	printf("%s %s", dest, src);
-
-	printf("%s", src);
 	return (0);
 }
