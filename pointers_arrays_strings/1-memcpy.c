@@ -2,17 +2,20 @@
 #include <stdio.h>
 /**
  * _memcpy - copies n bytes from memory area
- * @n: counter
+ * @n: bytes from memory area
  * @src: pointers
- * @dest: pointer sh
- * Return: pointer
+ * @dest: to memory area
+ *
+ * Return: pointer to dest.
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int c = 0;
-	for (; c < n; c++)
+	unsigned int i = 0;
+
+	for (; i < n; i++)
 	{
-		dest[c] = src[c];
+		dest[i] = src[i];
 	}
 	return (dest);
 }
+
