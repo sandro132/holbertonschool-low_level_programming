@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _memset - function that fills memory with i constant byte
- * @s: char pointer
- * @b: only char
- * @n: unsigned int
- * Reset: 0
+ * _memset - function that fills memory with a constant byte
+ * @s: pointer char
+ * @b: char
+ * @n: counter
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
