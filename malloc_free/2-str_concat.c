@@ -27,17 +27,19 @@ char *str_concat(char *s1, char *s2)
 
 	c = malloc((i + f + 1) * sizeof(char));
 
-	if (c != NULL)
+	if (c == NULL)
+
+		return ('\0');
+
+	for (s = 0; s <= i - 1; s++)
+
+		c[s] = s1[s];
+
+	for (o = 0; o <= f; o++)
 	{
-		for (s = 0; s <= i - 1; s++)
-
-			c[s] = s1[s];
-
-		for (o = 0; o <= f; o++)
-		{
-			c[i] = s2[o];
-			i++;
-		}
+		c[i] = s2[o];
+		i++;
 	}
+
 	return (c);
 }
