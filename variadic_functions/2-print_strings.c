@@ -8,9 +8,9 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-unsigned int k;
-char *cadena;
-va_list parametros;
+	unsigned int k;
+	char *cadena;
+	va_list parametros;
 
 	va_start(parametros, n);
 	for (k = 0; k < n; k++)
